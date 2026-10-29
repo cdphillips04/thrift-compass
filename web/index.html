@@ -1,5 +1,33 @@
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>Thrift Compass</title></head>
-<body><h1>Thrift Compass</h1><p>Coming soon.</p></body>
+<head>
+  <meta charset="utf-8">
+  <title>Thrift Compass</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    body { margin: 0; height: 100vh; display: flex; flex-direction: column; font-family: sans-serif; }
+    header { padding: 12px 20px; font-size: 22px; font-weight: bold; color: white; background: #222; }
+    #map { flex: 1; }
+   </style>
+</head>
+<body>
+  <header>Thrift Compass</header>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map("map").setView([37.2707, -76.7075], 10);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    fetch("data/stores.json")
+      .then(r => r.json())
+      .then(stores => {
+        for (const s of stores) {
+          L.marker([s.lat, s.lon]).addTo(map)
+            .bindPopup(`<b>${s.name}</b><br>${s.address}, ${s.city}`);
+        }
+      });
+  </script>
+</body>
 </html>
