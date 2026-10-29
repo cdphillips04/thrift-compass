@@ -1,0 +1,35 @@
+@type	@id	name	shop	addr:housenumber	addr:street	addr:city	addr:postcode	phone	website	opening_hours	@lat	@lon
+node	750096360	Design and Consign	second_hand	9720	Warwick Blvd	Newport News					37.0265859	-76.4553110
+node	2555006521	Goodwill	charity	12638	Jefferson Avenue	Newport News	23602	+1-757-215-0422		Mo-Sa 09:00-20:00	37.1347393	-76.5159976
+node	5828369939	Doodlebugs Consignment Shop	second_hand	240	Main Street	Mathews	23109	+1-804-725-3819		"Tu, Th 11:00-15:00; Fr 11:00-17:00; Sa 10:00-16:00; Su 12:00-15:00"	37.4336075	-76.3212258
+node	6152700232	Goodwill	charity	1310	Richmond Road	Williamsburg	23185				37.2830041	-76.7205791
+node	7367052233	Cornerstone Thrift	second_hand	8921	Pocahontas Trail		23140				37.4420979	-77.0445469
+node	8577107944	DAV Thrift Store	second_hand	1937	South Church Street	Smithfield	23430				36.9624512	-76.6040793
+node	8625499632	BB's Attic	second_hand								36.9535617	-76.5331465
+node	9237779518	CHKD Thrift Store	second_hand	1288	Smithfield Plaza	Smithfield	23430				36.9548508	-76.6028382
+node	9448377592	CHKD Thrift Store	second_hand								37.0392716	-76.4065108
+node	9572647030	Something Special	second_hand	302	Main Street	Smithfield	23430				36.9810654	-76.6338026
+node	10946089452	Rise As One Thrift Store	second_hand	122	Main Street	Mathews	23109	+1-804-384-0014	http://vetsforvetshomes.com/	We-Th 09:00-15:00; Fr-Sa 09:00-16:00	37.4353457	-76.3212244
+node	11266733500	Youth Challenge Thrift Store	second_hand								37.0289101	-76.4577307
+node	11266733502		second_hand								37.0294850	-76.4571647
+node	11833778400	Goodwill	charity	5234	George Washington Memorial Highway	Yorktown	23692	+1 757-947-2956		Mo-Sa 09:00-20:00	37.1581127	-76.4608116
+node	11833778406	The Bargain Box	second_hand	222	Dare Road	Yorktown	23692	+1-757-898-8688		Mo 13:00-16:30; Tu-Sa 10:00-14:00	37.1618281	-76.4589403
+node	11835270307	Habitat for Humanity ReStore	charity	4824	George Washington Memorial Highway	Yorktown	23692	+1-757-596-5553	http://restorepgw.org/	Mo-Sa 10:00-18:00	37.1526588	-76.4598319
+node	11879643912	The Thrifty Spot	second_hand	8303	Buckley Hall Road	Hudgins	23076	+18047252399			37.4707261	-76.3261952
+node	11889053888	Thrift & Threads	second_hand	3610	North Courthouse Road	Providence Forge	23140	+18049323333			37.4451629	-77.0450344
+node	12065640696	Habitat for Humanity ReStore	charity	1303	Jamestown Road	Williamsburg	23185	+1-757-596-5553		Mo-Sa 09:00-18:00	37.2527504	-76.7344543
+node	12094380916	Two Trolls	second_hand	5251	John Tyler Highway	Williamsburg	23185	+1-757-206-1030	https://shoptwotrolls.com/	Tu-Fr 10:00-17:00; Sa 10:00-16:00	37.2584731	-76.7412265
+node	12111474939	new2you Thrift Store	second_hand	4500	John Tyler Highway	Williamsburg	23185				37.2529745	-76.7650265
+node	12111474942	3 Doors Down	second_hand	4506	John Tyler Highway	Williamsburg	23185				37.2529968	-76.7648064
+node	13735320401	CHKD Thrift Store	second_hand	6610	Mooretown Road		23188				37.3371664	-76.7355477
+node	13811522505	Thrifts & Trends	second_hand								37.4433867	-77.0415663
+node	13950755511	S and J Thrift Store	second_hand	7068	Longview Drive	Hayes	23072	+1-757-715-4488		Tu-Fr 12:00-17:00; Sa 12:00-16:00	37.3007429	-76.5126473
+node	13950755531	NIFTY thrifty	second_hand	7057	Linda Circle	Hayes	23072	+1-224-539-6245		Tu-Sa 10:00-18:00	37.3074173	-76.5136144
+node	13950755535	Habitat for Humanity ReStore	charity	3727	George Washington Memorial Highway	Hayes	23072	+1-804-695-9655		Tu-Fr 10:00-16:00; Sa 10:00-15:00	37.3096984	-76.5122270
+way	141901216	Habitat for Humanity ReStore	charity	371	Chatham Drive	Newport News	23602	+1-757-246-4955	http://www.restorepgw.org/	Mo-Sa 10:00-18:00	37.1235995	-76.5150993
+way	333064754	DAV Thrift Store	second_hand	15265	Warwick Boulevard	Newport News	23608	+1-757-877-0999		Mo-Sa 09:00-20:00; Su 12:00-17:00	37.1448689	-76.5509281
+way	333717115	Boys and Girls Club Thrift Store	second_hand	12621	Warwick Boulevard	Newport News	23606				37.0850524	-76.4997129
+way	370096192	DAV Thrift Store	second_hand	440	Merrimac Trail	York County	23185				37.2741035	-76.6806983
+way	388598286	Goodwill	charity	1911	Saville Row	Hampton	23666				37.0388700	-76.3830818
+way	615057432	Vintage Potential	second_hand	215	Main Street	Smithfield	23430				36.9811847	-76.6326325
+way	696050230	Goodwill	charity								37.0462886	-76.4742537
